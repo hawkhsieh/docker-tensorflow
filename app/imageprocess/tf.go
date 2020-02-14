@@ -45,6 +45,7 @@ func NewTFClient(modelfile string) TFPCLIENT {
 		ModelGraph:   graph,
 		ModelSession: session,
 	}
+
 	return tfClient
 }
 
